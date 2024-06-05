@@ -329,7 +329,7 @@
                             <a href="#">Проекты</a>
                             <ul>
                                 <li><a href="projects.php">Дома из бруса</a> </li>
-                                <li><a href="#">Бани из бруса</a> </li>
+                                
                             </ul>
                         </li>
 
@@ -344,9 +344,9 @@
                         </li>
 
                         <li>
-                            <a href="#">О нас</a>
+                            <a href="info.php">О нас</a>
                             <ul>
-                                <li><a href="#">Отзывы</a> </li>
+                                
                             </ul>
                         </li>
 
@@ -365,14 +365,40 @@
 <li><a href="index.php" class="breadcrumbs__link">Главная</a></li><li><a href="uslugi.php" class="breadcrumbs__link">Услуги</a></li><li>Возведение фундаментов</li>	</ul>
 </div>
 </div>
+<style>
+.alert.gray {
 
+  color: #fff;
+
+  background: #79849a;
+
+}
+.text-block ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #008489;
+}
+.text-block h8 {
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4e5464;
+}
+</style>
 <div class="page">
 			<div class="container">
 			<div id="system-message-container">
 	</div>				
 <div class="content text-block">
-			<h2>Фундаменты</h2>
-<div class="alert orange">
+			<h8>Фундаменты</h8>
+<div class="alert gray">
 <p><strong>Фундамент</strong> - ключевой элемент любого здания, и его качество играет решающую роль в надежности дома.&nbsp;</p>
 </div>
 <p style="text-align: justify;">От правильно выполненного фундамента зависит безпроблемная эксплуатация дома, и вы избежите неприятных сюрпризов, таких как перекошенные оконные рамы и дверные проемы. Кроме того, важно подобрать подходящую конструкцию фундамента для каждого конкретного случая и браться за строительство с полной ответственностью, выполняя все работы тщательно и качественно.</p>
@@ -563,7 +589,7 @@
                                         <li><a href="projects.php">Проекты</a></li>
                                         <li><a href="galerej.php">Галерея</a></li>
                                         <li><a href="uslugi.php">Услуги</a></li>
-                                        <li><a href="fotogalereya/">О нас</a></li>
+                                        <li><a href="info.php">О нас</a></li>
                                         <li><a href="kontakty.php">Контакты</a></li>
                                     </ul>
 

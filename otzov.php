@@ -68,14 +68,6 @@
         </div>
     </header>
 
-    <div class="breadcrumbs ">
-        <div class="container">
-            <ul>
-                <li><a href="index.php" class="breadcrumbs__link">Главная</a></li>
-                <li><a href="projects.php" class="breadcrumbs__link">Проекты</a></li>
-                <li>Дом-1 из бруса 6x6 м</li>
-            </ul>
-        </div>
-    </div>
+    <style>
 
- 
+    </style>

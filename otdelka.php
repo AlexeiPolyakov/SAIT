@@ -38,7 +38,7 @@
                             <a href="#">Проекты</a>
                             <ul>
                                 <li><a href="projects.php">Дома из бруса</a> </li>
-                                <li><a href="#">Бани из бруса</a> </li>
+                                
                             </ul>
                         </li>
 
@@ -53,9 +53,9 @@
                         </li>
 
                         <li>
-                            <a href="#">О нас</a>
+                            <a href="info.php">О нас</a>
                             <ul>
-                                <li><a href="#">Отзывы</a> </li>
+                                
                             </ul>
                         </li>
 
@@ -219,7 +219,7 @@ table {
                 <div class="mb-5">
                     <p>Рассчитайте свой проект (эскизы, зарисовки от руки)&nbsp;и получите лучшее&nbsp;предложение&nbsp;на строительство вашего будущего дома!!!</p>
                 </div>
-                <button class="button1" id="openModal">Рассчитать</button>
+                <button class="button1" id="openModal">Заказать</button>
                 </div>
             </div>
         </div>
@@ -326,7 +326,7 @@ input, textarea {
                                         <li><a href="projects.php">Проекты</a></li>
                                         <li><a href="galerej.php">Галерея</a></li>
                                         <li><a href="uslugi.php">Услуги</a></li>
-                                        <li><a href="fotogalereya/">О нас</a></li>
+                                        <li><a href="info.php">О нас</a></li>
                                         <li><a href="kontakty.php">Контакты</a></li>
                                     </ul>
 

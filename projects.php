@@ -39,7 +39,7 @@
                             <a href="#">Проекты</a>
                             <ul>
                                 <li><a href="projects.php">Дома из бруса</a> </li>
-                                <li><a href="#">Бани из бруса</a> </li>
+                                
                             </ul>
                         </li>
 
@@ -54,9 +54,9 @@
                         </li>
 
                         <li>
-                            <a href="#">О нас</a>
+                            <a href="info.php">О нас</a>
                             <ul>
-                                <li><a href="#">Отзывы</a> </li>
+                                
                             </ul>
                         </li>
 
@@ -100,7 +100,7 @@
                             <img data-src="img1/5.png" class="lazy procard__img loaded" src="img1/5.png" alt="Проект дома из бруса 6 м х 6 м Дом-1" title="Проект дома из бруса 6 м х 6 м" data-was-processed="true">
 
                             <div class="procard__body">
-                                <a href="dm1.php" class="procard__num stretched-link" title="Проект дома из бруса 6 м х 6 м ДБ-89">Проект Дома-1</a>
+                                <a href="#" class="procard__num stretched-link" title="Проект дома из бруса 6 м х 6 м ДБ-89">Проект Дома-1</a>
                                 <div class="procard__har"><span>Габариты:</span> <span>6х6</span></div>
                                 <div class="procard__har"><span>Общая площадь:</span> <span>36 м<sup>2</sup></span></div>
                                 <div class="procard__price">
@@ -112,10 +112,10 @@
                     <div class="col ">
                         <div class="procard ">
 
-                            <img data-src="img1/11.png" class="lazy procard__img loaded" src="img1/11.png" alt="Проект дома из бруса 7 м х 9 м Дом-2" title="Проект дома из бруса 7 м х 9 м" data-was-processed="true">
+                            <img data-src="img1/113.png" class="lazy procard__img loaded" src="img1/113.png" alt="Проект дома из бруса 7 м х 9 м Дом-2" title="Проект дома из бруса 7 м х 9 м" data-was-processed="true">
 
                             <div class="procard__body">
-                                <a href="projects/db-132" class="procard__num stretched-link" title="Проект дома из бруса 7 м х 9 м Дома-2">Проект Дома-2</a>
+                                <a href="#" class="procard__num stretched-link" title="Проект дома из бруса 7 м х 9 м Дома-2">Проект Дома-2</a>
                                 <div class="procard__har"><span>Габариты:</span> <span>7х9</span></div>
                                 <div class="procard__har"><span>Общая площадь:</span> <span>118 м<sup>2</sup></span></div>
                                 <div class="procard__price">
@@ -130,7 +130,7 @@
                             <img data-src="img1/3-1.png" class="lazy procard__img loaded" src="img1/3-1.png" alt="Проект дома из бруса 7 м х 11 м Дом-3" title="Проект дома из бруса 7 м х 11" data-was-processed="true">
 
                             <div class="procard__body">
-                                <a href="projects/db-36" class="procard__num stretched-link" title="Проект дома из бруса 7 м х 11 м Дома-3">Проект Дома-3</a>
+                                <a href="#" class="procard__num stretched-link" title="Проект дома из бруса 7 м х 11 м Дома-3">Проект Дома-3</a>
                                 <div class="procard__har"><span>Габариты:</span> <span>7х11</span></div>
                                 <div class="procard__har"><span>Общая площадь:</span> <span>98 м<sup>2</sup></span></div>
                                 <div class="procard__price">
@@ -161,7 +161,7 @@
                 <div class="mb-5">
                     <p>Рассчитайте свой проект (эскизы, зарисовки от руки)&nbsp;и получите лучшее&nbsp;предложение&nbsp;на строительство вашего будущего дома!!!</p>
                 </div>
-                <button class="button1" id="openModal">Рассчитать</button>
+                <button class="button1" id="openModal">Заказать</button>
                 </div>
             </div>
         </div>
@@ -268,7 +268,7 @@ input, textarea {
                             <li><a href="projects.php">Проекты</a></li>
                             <li><a href="galerej.php">Галерея</a></li>
                             <li><a href="uslugi.php">Услуги</a></li>
-                            <li><a href="fotogalereya/">О нас</a></li>
+                            <li><a href="info.php">О нас</a></li>
                             <li><a href="kontakty.php">Контакты</a></li>
                         </ul>
 

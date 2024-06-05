@@ -37,8 +37,7 @@
                         <li>
                             <a href="#">Проекты</a>
                             <ul>
-                                <li><a href="projects.php">Дома из бруса</a> </li>
-                                <li><a href="#">Бани из бруса</a> </li>
+                                <li><a href="projects.php">Дома из бруса</a> </li>                               
                             </ul>
                         </li>
 
@@ -53,9 +52,9 @@
                         </li>
 
                         <li>
-                            <a href="#">О нас</a>
+                            <a href="info.php">О нас</a>
                             <ul>
-                                <li><a href="#">Отзывы</a> </li>
+                                
                             </ul>
                         </li>
 
@@ -221,6 +220,54 @@ input, textarea {
   font-weight: 300;
   text-align:center;
 }
+.reviews {
+    background-color: #f7f7f;
+    padding: 20px;
+}
+
+.review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review {
+    margin: 20px;
+    width: 30%;
+    background-color: #0084895a;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.review h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.review span {
+    font-size: 14px;
+    color: #666;
+}
+h9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
         </style>
         <!--Forma-->
                 <div id="modal" class="modal">
@@ -269,7 +316,29 @@ input, textarea {
                 </div>
                 <script src="assets/js/scripts.js"></script>
                 <!--Forma END-->
-
+                <section class="reviews">
+    <h9>Отзывы наших клиентов</h9>
+    <div class="review-container">
+        <div class="review">
+            <img src="images/av.png" alt="Avatar 1">
+            <h3>Иван Иванов</h3>
+            <p>Мы выбрали эту компанию для строительства нашего загородного дома и не пожалели. Качество работ на высоте, цены приемлемые, а сотрудники очень приветливые.</p>
+            <span>05.06.2024</span>
+        </div>
+        <div class="review">
+            <img src="images/av.png" alt="Avatar 2">
+            <h3>Мария Петрова</h3>
+            <p>Компания выполнила все работы в срок и с высоким качеством. Мы остались очень довольны результатом и рекомендуем эту компанию всем.</p>
+            <span>10.05.2024</span>
+        </div>
+        <div class="review">
+            <img src="images/av.png" alt="Avatar 3">
+            <h3>Алексей Сидоров</h3>
+            <p>Я был приятно удивлен уровнем сервиса и квалификацией сотрудников. Рекомендую эту компанию всем, кто ищет надежного партнера для строительства.</p>
+            <span>20.04.2024</span>
+        </div>
+    </div>
+</section>
                 <!--Footer-->
 
                 <footer class="footer">
@@ -284,7 +353,7 @@ input, textarea {
                                         <li><a href="projects.php">Проекты</a></li>
                                         <li><a href="galerej.php">Галерея</a></li>
                                         <li><a href="uslugi.php">Услуги</a></li>
-                                        <li><a href="fotogalereya/">О нас</a></li>
+                                        <li><a href="info.php">О нас</a></li>
                                         <li><a href="kontakty.php">Контакты</a></li>
                                     </ul>
 
